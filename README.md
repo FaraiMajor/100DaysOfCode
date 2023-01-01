@@ -1,4 +1,4 @@
-# 100 Days of Code - The Complete Python Pro Bootcamp for 2021
+# 100 Days of Code - The Complete Python Pro Bootcamp for 2022
 
 My solutions for the projects included in the [Python course by Dr. Angela Yu](https://www.udemy.com/course/100-days-of-code/).
 
@@ -18,11 +18,7 @@ My solutions for the projects included in the [Python course by Dr. Angela Yu](h
 * [Solution: Password Generator](day05/.)
 
 ### Day 6 - Python Functions & Karel
-* [Solution: Reeborg's World: Hurdle 1](day06/ReeborgsWorldHurdle1.txt)
-* [Solution: Reeborg's World: Hurdle 2](day06/ReeborgsWorldHurdle2.txt)
-* [Solution: Reeborg's World: Hurdle 3](day06/ReeborgsWorldHurdle3.txt)
-* [Solution: Reeborg's World: Hurdle 4](day06/ReeborgsWorldHurdle4.txt)
-* [Solution: Reeborg's World: Maze](day06/ReeborgsWorldMaze.txt)
+* [Solution: Reeborg's World](day06/.)
 
 ### Day 7 - Hangman
 * [Solution: Hangman](day07/.)
