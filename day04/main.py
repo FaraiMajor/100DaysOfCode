@@ -63,5 +63,5 @@ while True:
         print("It's a draw")
 
     if not replay():
-        print("\nThanks for playing")
+        print("\nThanks for playing!")
         break
