@@ -18,6 +18,13 @@ for _ in range(5):
 
 tim.end_fill()
 tim.speed("slow")
+
+for _ in range(50):
+    tim.forward(10)
+    tim.penup()
+    tim.forward(10)
+    tim.pendown()
+
 screen = Screen()
 
 print(tim)
