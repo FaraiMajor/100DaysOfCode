@@ -2,95 +2,37 @@
 
 My solutions for the projects included in the [Python course by Dr. Angela Yu](https://www.udemy.com/course/100-days-of-code/).
 
-### Day 1 - Working with Variables in Python to Manage Data
-* [Solution: Band Name Generator](day01/.)
+## 👨🏻‍🎓 Beginner
+- [Day 1](day01): Working with Variables in Python to Manage Data
+- [Day 2](day02): Understanding Data Types and How to Manipulate Strings
+- [Day 3](day03): Control Flow and Logical Operators
+- [Day 4](day04): Randomisation and Python Lists
+- [Day 5](day05): Python Loops
+- [Day 6](day06): Python Functions & Karel
+- [Day 7](day07): Hangman
+- [Day 8](day08): Function Parameters & Caesar Cipher
+- [Day 9](day09): Dictionaries, Nesting and the Secret Auction
+- [Day 10](day10): Function Return Values and the Calculator Project
+- [Day 11](day11): Blackjack Capstone Project
+- [Day 12](day12): Scope and Namespacing in Python
+- [Day 13](day13): Debugging: How to Find and Fix Errors in your Code
+- [Day 14](day14): Higher Lower Game Project
 
-### Day 2 - Understanding Data Types and How to Manipulate Strings
-* [Solution: Tip Calculator](day02/.)
-
-### Day 3 - Control Flow and Logical Operators
-* [Solution: Treasure Island](day03/.)
-
-### Day 4 - Randomisation and Python Lists
-* [Solution: Rock Paper Scissors](day04/.)
-
-### Day 5 - Python Loops
-* [Solution: Password Generator](day05/.)
-
-### Day 6 - Python Functions & Karel
-* [Solution: Reeborg's World](day06/.)
-
-### Day 7 - Hangman
-* [Solution: Hangman](day07/.)
-
-### Day 8 - Function Parameters & Caesar Cipher
-* [Solution: Caesar Cipher](day08/.)
-
-### Day 9 - Dictionaries, Nesting and the Secret Auction
-* [Solution: Secret Auction](day09/.)
-
-### Day 10 - Functions with Outputs
-* [Solution: Calculator](day10/.)
-
-### Day 11 - The Blackjack Capstone Project
-* [Solution: Blackjack](day11/.)
-
-### Day 12 - Scope & Number Guessing Game
-* [Solution: Guess the Number](day12/.)
-
-### Day 13 - Debugging: How to Find and Fix Errors in your Code
-* [Solution: Debugging](day13/.)
-
-### Day 14 - Higher Lower Game Project
-* [Solution: Higher Lower Game](day14/.)
-
-### Day 15 - Local Development Environment Setup & the Coffee Machine
-* [Solution: Coffee Machine](day15/.)
-
-### Day 16 - Object Oriented Programming (OOP)
-* [Solution: OOP Coffee Machine](day16/.)
-
-### Day 17 - The Quiz Project & the Benefits of OOP
-* [Solution: Quiz](day17/.)
-
-### Day 18 - Turtle & the Graphical User Interface (GUI)
-* [Solution: Hirst Painting](day18/.)
-
-### Day 19 - Instances, State and Higher Order Functions
-* [Solution: Turtle Race](day19/.)
-
-### Day 20 - Build the Snake Game Part 1: Animation & Coordinates
-* [Solution: Snake Game Part 1](day20/.)
-
-### Day 21 - Build the Snake Game Part 2: Inheritance & List Slicing
-* [Solution: Snake Game Part 2](day20/.)
-
-### Day 22 - Build Pong: The Famous Arcade Game
-* [Solution: Pong](day22/.)
-
-### Day 23 - The Turtle Crossing Capstone Project
-* [Solution: Turtle Crossing](day23/.)
-
-### Day 24 - Files, Directories and Paths
-* [Solution: Mail Merge](day24/.)
-
-### Day 25 - Working with CSV Data and the Pandas Library
-* [Solution: U.S. States Game](day25/.)
-
-### Day 26 - List Comprehension and the NATO Alphabet
-* [Solution: NATO Alphabet](day26/.)
-
-### Day 27 - Tkinter, *args, **kwargs and Creating GUI Programs
-* [Solution: Mile to Kilometers Converter](day27/.)
-
-### Day 28 - Tkinter, Dynamic Typing and the Pomodoro GUI Application
-* [Solution: Pomodoro](day28/.)
-
-### Day 29 - Building a Password Manager GUI App with Tkinter
-* [Solution: Password Manager](day29/.)
-
-### Day 30 - Errors, Exceptions and JSON Data: Improving the Password Manager
-* [Solution: Password Manager Improved](day30/.)
-
-### Day 31 - Flash Card App Capstone Project
-* [Solution: Flash Card App](day31/.)
+## 🏋🏻‍♂️ Intermediate
+- [Day 15](day15): Local Development Environment Setup & the Coffee Machine Project
+- [Day 16](day16): Object Oriented Programming (OOP)
+- [Day 17](day17): The Quiz Project & the Benefits of OOP
+- [Day 18](day18): Turtle Graphics and GUIs
+- [Day 19](day19): Instances, State and Higher Order Functions
+- [Day 20](day20): Build the Snake Game Part 1: Animation & Coordinates
+- [Day 21](day21): Build the Snake Game Part 2: Inheritance & List Slicing
+- [Day 22](day22): Build Pong: The Famous Arcade Game
+- [Day 23](day23): The Turtle Crossing Capstone Project
+- [Day 24](day24): Files, Directories and Paths
+- [Day 25](day25): Working with CSV Data and the Pandas Library
+- [Day 26](day26): List Comprehension & the NATO Pilot's Alphabet
+- [Day 27](day27): Tkinter, *args, **kwargs and Creating GUI Programs
+- [Day 28](day28): Tkinter, Dynamic Typing and the Pomodoro GUI Application
+- [Day 29](day29): Building a Password Manager GUI App with Tkinter
+- [Day 30](day30): Errors, Exceptions and JSON Data: Improving the Password Manager
+- [Day 31](day31): Capstone Project - Flash Card App
