@@ -24,45 +24,46 @@ s.write("You have 5 Minutes to complete this challenge",
         font=("Arial", 15, "bold"))
 # ----------------------------------------------------------------------------------
 # TIMER
-clock = turtle.Turtle()
-clock.penup()
-clock.hideturtle()
-clock.goto(150, 250)
+# clock = turtle.Turtle()
+# clock.penup()
+# clock.hideturtle()
+# clock.goto(150, 250)
 
 
-def countdown(t):
-    while t > 0:
-        mins, secs = divmod(t, 60)
-        timer = '{:02d}:{:02d}'.format(mins, secs)
-        clock.clear()
-        clock.write(f'Time left: {timer}', font=("Arial", 25, "bold"))
-        time.sleep(1)
-        t -= 1
+# def countdown(t):
+#     while t > 0:
+#         mins, secs = divmod(t, 60)
+#         timer = '{:02d}:{:02d}'.format(mins, secs)
+#         clock.clear()
+#         clock.write(f'Time left: {timer}', font=("Arial", 25, "bold"))
+#         time.sleep(1)
+#         t -= 1
 
 
-# def update_time(t, timer):
-#     t.clear()
-#     t.write(f'Time left: {timer}', font=("Arial", 25, "bold"))
-#     t.clear()
+def update_time(t, timer):
+    t.clear()
+    t.write(f'Time left: {timer}', font=("Arial", 25, "bold"))
 
 
 countdown_time = 300  # time in seconds
 start_time = time.time()  # starting time
+
+
+time_turtle = turtle.Turtle()
 
 # ----------------------------------------------------------------------------------
 while len(guessed_states) < 50:
 
     # countdown timer
     remaining_time = countdown_time - int(time.time() - start_time)
-    t = turtle.Turtle()
-    t.penup()
-    t.hideturtle()
-    t.goto(150, 250)
+    time_turtle.penup()
+    time_turtle.hideturtle()
+    time_turtle.goto(150, 250)
     mins, secs = divmod(remaining_time, 60)
     timer = '{:02d}:{:02d}'.format(mins, secs)
-    t.clear()
+    time_turtle.clear()
     # update_time(t, timer)
-    t.write(f'Time left: {timer}', font=("Arial", 25, "bold"))
+    time_turtle.write(f'Time left: {timer}', font=("Arial", 25, "bold"))
     # time.sleep(1)
 
     answer_state = screen.textinput(title=f"{len(guessed_states)}/50 States Correct",
@@ -71,7 +72,9 @@ while len(guessed_states) < 50:
     # this if statement terminates the program when timer reaches zero and also saved missing states
     if remaining_time <= 0:
         if answer_state == 'Exit':
-            update_time(t, timer)
+            time_turtle.clear()
+            time_turtle.write(
+                f'Time left: {timer}', font=("Arial", 25, "bold"))
             missing_states = [
                 state for state in all_states if state not in guessed_states]
             # put data in a dictionary so we can access state title when we make list
