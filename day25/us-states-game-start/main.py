@@ -24,20 +24,6 @@ s.write("You have 5 Minutes to complete this challenge",
         font=("Arial", 15, "bold"))
 # ----------------------------------------------------------------------------------
 # TIMER
-# clock = turtle.Turtle()
-# clock.penup()
-# clock.hideturtle()
-# clock.goto(150, 250)
-
-
-# def countdown(t):
-#     while t > 0:
-#         mins, secs = divmod(t, 60)
-#         timer = '{:02d}:{:02d}'.format(mins, secs)
-#         clock.clear()
-#         clock.write(f'Time left: {timer}', font=("Arial", 25, "bold"))
-#         time.sleep(1)
-#         t -= 1
 
 
 def update_time(t, timer):
