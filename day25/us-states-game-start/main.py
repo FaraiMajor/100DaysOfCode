@@ -87,15 +87,19 @@ while len(guessed_states) < 50:
         break
 # when we exit, this will save all the remaining states in a new csv file
     if answer_state == "Exit":
-        missing_states = [
-            state for state in all_states if state not in guessed_states]
-        # put data in a dictionary so we can access state title when we make list
-        data_dict = {
-            'state': missing_states
-        }
-        new_data = pandas.DataFrame(data_dict)
+        # missing_states = [
+        #     state for state in all_states if state not in guessed_states]
+        # # put data in a dictionary so we can access state title when we make list
+        # data_dict = {
+        #     'state': missing_states
+        # }
+        missed_states = {
+            'state': [states for states in all_states if states not in guessed_states]}
+
+        new_data = pandas.DataFrame(missed_states)
         new_data.to_csv("day25/us-states-game-start/states_to_learn.csv")
         break
+
     if answer_state in all_states:
         guessed_states.append(answer_state)
         t = turtle.Turtle()
