@@ -7,13 +7,13 @@ import random
 # Set up the SMTP server details
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-smtp_username = 'bowmajor@gmail.com'
-smtp_password = "jnodlivyucejxddj"
+smtp_username = 'example@gmail.com'
+smtp_password = "jsssssdd"
 
 # Set up the message details
-sender_email = 'bowmajor@gmail.com'
-recipient_email = 'faraimajor263@gmail.com'
-subject = 'Sei Sei Fasto'
+sender_email = 'test@gmail.com'
+recipient_email = 'examplw@gmail.com'
+subject = 'Sei Sei Fass'
 now = dt.datetime.now()
 weekday = now.weekday()
 print(weekday)
