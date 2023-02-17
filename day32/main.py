@@ -1,17 +1,39 @@
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
 import smtplib
-import ssl
+import datetime as dt
+import random
 
-port = 465  # For SSL
-smtp_server = "smtp.gmail.com"
-sender_email = "bowmajor@gmail.com"  # Enter your address
-receiver_email = "faraimajor263@gmail.com"  # Enter receiver address
-password = "jnodlivyucejxddj"
-message = """\
-Subject: Hi there
+# Set up the SMTP server details
+smtp_server = 'smtp.gmail.com'
+smtp_port = 587
+smtp_username = 'bowmajor@gmail.com'
+smtp_password = "jnodlivyucejxddj"
 
-This message is sent from Python."""
+# Set up the message details
+sender_email = 'bowmajor@gmail.com'
+recipient_email = 'faraimajor263@gmail.com'
+subject = 'Sei Sei Fasto'
+now = dt.datetime.now()
+weekday = now.weekday()
+print(weekday)
+body = ''
+if weekday == 3:
+    with open("day32/quotes.txt") as quote_file:
+        all_quotes = quote_file.readlines()
+        body = random.choice(all_quotes)
 
-context = ssl.create_default_context()
-with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
-    server.login(sender_email, password)
-    server.sendmail(sender_email, receiver_email, message)
+# Create a message object
+msg = MIMEMultipart()
+msg['From'] = sender_email
+msg['To'] = recipient_email
+msg['Subject'] = subject
+msg.attach(MIMEText(body, 'plain'))
+
+# Create the SMTP session and send the message
+
+with smtplib.SMTP(smtp_server, smtp_port) as server:
+    server.starttls()
+    server.login(smtp_username, smtp_password)
+    text = msg.as_string()
+    server.sendmail(sender_email, recipient_email, text)
