@@ -15,11 +15,12 @@ response = requests.request("GET", url, params=params)
 response.raise_for_status()
 
 weather_data = response.json()
-weather_hourly = weather_data["hourly"][:12]
+weather_hourly = weather_data["hourly"]
+# [:12]
 
 will_rain = False
 
-for hourly_data in weather_hourly:
+for hourly_data in weather_hourly[:12]:
     condition_code = hourly_data["weather"][0]["id"]
     if int(condition_code) < 700:
         will_rain = True
