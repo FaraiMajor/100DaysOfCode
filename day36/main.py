@@ -9,6 +9,7 @@ NEWS_API_KEY = "9b45c*********"
 STOCK_API_KEY = "NZ*******"
 TWILIO_SID = "AC61375***************"
 TWILIO_AUTH_TOKEN = "5b08**********"
+
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
@@ -43,7 +44,7 @@ else:
 diff_percent = round((price_change / float(yesterday_closing_price)) * 100)
 print(f"{diff_percent}%")
 
-if abs(diff_percent) > -4:
+if abs(diff_percent) > 5:
     api = NewsApiClient(api_key=NEWS_API_KEY)
     articles = api.get_everything(q='tesla')["articles"]
     three_articles = articles[:3]
