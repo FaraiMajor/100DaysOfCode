@@ -2,14 +2,13 @@ import requests
 from twilio.rest import Client
 from newsapi import NewsApiClient
 
-VIRTUAL_TWILIO_NUMBER = "+18886080561"
-VERIFIED_NUMBER = "+19293369612"
+VIRTUAL_TWILIO_NUMBER = "+188******"
+VERIFIED_NUMBER = "+1929******"
 
-NEWS_API_KEY = "9b45c3fa0be4412ca0827eb58fa5a113"
-STOCK_API_KEY = "NZGT6QUSH2EOOJ02"
-TWILIO_SID = "AC6137534b9baf3086289be51dccd53968"
-TWILIO_AUTH_TOKEN = "5b081ad720416cb2fe92de2acaacfcac"
-
+NEWS_API_KEY = "9b45c*********"
+STOCK_API_KEY = "NZ*******"
+TWILIO_SID = "AC61375***************"
+TWILIO_AUTH_TOKEN = "5b08**********"
 STOCK_NAME = "TSLA"
 COMPANY_NAME = "Tesla Inc"
 
