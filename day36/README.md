@@ -4,4 +4,4 @@ Built a Python script that gets the TSLA stock closing price of yesterday and th
 
 ## Stock Trading News Alert
 
-![rain](rain.png)
+![rain](stock_alert.png)
