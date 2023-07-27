@@ -2,9 +2,6 @@
 <p align="center">
 <img width="" src="https://media4.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif?cid=ecf05e4796b9znwjl0zqxljtzh2xe4yer17y5oojmj5kztep&rid=giphy.gif&ct=g" align="center" alt="gif" />
 </p>
-<p align="center">
-My solutions for the projects included in the [Python course by Dr. Angela Yu](https://www.udemy.com/course/100-days-of-code/).
-</p>
 
 ## 👨🏻‍🎓 Beginner
 - [Day 1](day01): Working with Variables in Python to Manage Data
